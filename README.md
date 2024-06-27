@@ -77,29 +77,6 @@ Displaying Dataset:
 | 3  | Bob   | 28  | 55000  |
 | ...| ...   | ... | ...    |
 
-Please enter your command (2-7): 5
-
-Calculating Statistics:
-
-1. Average salary
-2. Maximum age
-3. Minimum salary
-
-Enter your choice (1-3): 1
-
-Average salary: $55000
-
-Please enter your command (2-7): 6
-
-Generating Visualization:
-
-1. Histogram of ages
-2. Box plot of salaries
-
-Enter your choice (1-2): 1
-
-Visualization generated: Histogram of ages displayed.
-
 Please enter your command (2-7): 7
 
 Exiting Data Analysis Tool. Goodbye!
