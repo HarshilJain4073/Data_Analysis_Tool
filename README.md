@@ -140,7 +140,7 @@ Available Commands:
 Enter your choice(1-2): 1
 Enter the column: Age
 
-[Histogram of Age data displayed]
+Histogram is being generated.
 
 Available Commands:
 1. Load dataset
