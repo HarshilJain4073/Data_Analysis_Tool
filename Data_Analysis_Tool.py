@@ -42,11 +42,9 @@ def analysis_tool():
                             if col not in data.columns:
                                 print("Enter a valid column")
                                 continue
-                            data = data.sort_values(by=col)
-                            print(data.head(5))
+                            print(data.sort_values(by=col).head(5))
                         case 2:
-                            data = data.sort_index()
-                            print(data.head(5))
+                            print(data.sort_index().head(5))
                 case 4:
                     if data.empty:
                         print("Dataset is empty. Load a dataset.")
@@ -88,18 +86,21 @@ def analysis_tool():
                     if cho not in [1,2]:
                         print("Enter a valid choice(1-2).")
                         continue
-                    col = input("Enter the column")
+                    col = input("Enter the column:")
                     if col not in data.columns:
-                        print("Enter a valid column")
+                        print("Enter a valid column.")
                         continue
                     match cho:
                         case 1:
+                            print("Histogram is being generated.")
                             plt.hist(data[col])
                             plt.xlabel(col)
+                            plt.xticks(rotation='vertical')
                             plt.ylabel("Frequency")
                             plt.title(f"Histogram of {col}")
                             plt.show()
                         case 2:
+                            print("Box Plot is being generated.")
                             plt.boxplot(data[col])
                             plt.xlabel(col)
                             plt.ylabel("Frequency")
