@@ -25,7 +25,7 @@ Welcome to the Data Analysis Tool repository! This tool allows you to perform va
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/data-analysis-tool.git
+   git clone https://github.com/HarshilJain4073/data-analysis-tool.git
    cd data-analysis-tool
 2. **Install the required libraries:**
    ```bash
